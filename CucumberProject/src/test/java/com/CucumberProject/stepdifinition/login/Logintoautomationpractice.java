@@ -23,7 +23,7 @@ public void navigate_to_application() throws IOException  {
 }
 
 @When("^user click on sign in$")
-public void user_click_on_sign_in() throws Throwable {
+public void user_click_on_sign_in()  {
     // Write code here that turns the phrase above into concrete actions
 	 loginpage = new Loginpage(driver);;
 

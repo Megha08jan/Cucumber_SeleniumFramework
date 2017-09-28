@@ -18,7 +18,7 @@ public class Testbase {
 	
 	public static final Logger log = Logger.getLogger(Testbase.class.getName());
 	
-	public WebDriver driver;
+	public static WebDriver driver;
 	
 	Properties OR = new Properties();
 	

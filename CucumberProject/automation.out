@@ -1,3 +1,6 @@
 2017-09-26 00:01:22 INFO  Loginpage:49 - entered emailid is[[ChromeDriver: chrome on XP (8259d2f9e138991c3129ff35a57d9e60)] -> xpath: //*[@id ='email']]
 2017-09-26 00:01:23 INFO  Loginpage:56 - entered password is[[ChromeDriver: chrome on XP (8259d2f9e138991c3129ff35a57d9e60)] -> xpath: //*[@id ='passwd']]
 2017-09-26 00:02:24 INFO  Loginpage:64 - clicked on signinbuttonProxy element for: DefaultElementLocator 'By.xpath: //*[@class ='icon-lock left']'
+2017-09-28 22:07:29 INFO  Loginpage:49 - entered emailid is[[ChromeDriver: chrome on XP (42e85aa3f1cc89919d37021f0612663e)] -> xpath: //*[@id ='email']]
+2017-09-28 22:07:29 INFO  Loginpage:56 - entered password is[[ChromeDriver: chrome on XP (42e85aa3f1cc89919d37021f0612663e)] -> xpath: //*[@id ='passwd']]
+2017-09-28 22:08:31 INFO  Loginpage:64 - clicked on signinbuttonProxy element for: DefaultElementLocator 'By.xpath: //*[@class ='icon-lock left']'
