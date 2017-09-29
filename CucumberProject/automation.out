@@ -4,3 +4,26 @@
 2017-09-28 22:07:29 INFO  Loginpage:49 - entered emailid is[[ChromeDriver: chrome on XP (42e85aa3f1cc89919d37021f0612663e)] -> xpath: //*[@id ='email']]
 2017-09-28 22:07:29 INFO  Loginpage:56 - entered password is[[ChromeDriver: chrome on XP (42e85aa3f1cc89919d37021f0612663e)] -> xpath: //*[@id ='passwd']]
 2017-09-28 22:08:31 INFO  Loginpage:64 - clicked on signinbuttonProxy element for: DefaultElementLocator 'By.xpath: //*[@class ='icon-lock left']'
+2017-09-29 15:15:57 INFO  Loginpage:49 - entered emailid is[[ChromeDriver: chrome on XP (2ee0813ea684eaf5da65b7e8f3123cbc)] -> xpath: //*[@id ='email']]
+2017-09-29 15:15:57 INFO  Loginpage:56 - entered password is[[ChromeDriver: chrome on XP (2ee0813ea684eaf5da65b7e8f3123cbc)] -> xpath: //*[@id ='passwd']]
+2017-09-29 15:16:59 INFO  Loginpage:64 - clicked on signinbuttonProxy element for: DefaultElementLocator 'By.xpath: //*[@class ='icon-lock left']'
+2017-09-29 20:18:58 INFO  Loginpage:71 - entred emailaddress[[ChromeDriver: chrome on XP (b0d0ccc596062d9a92d561e0592b77f3)] -> xpath: //*[@id = 'email_create']]
+2017-09-29 20:26:11 INFO  Loginpage:72 - entred emailaddress[[ChromeDriver: chrome on XP (1f4a7d9490cd9a1c1cdad891f38187c3)] -> xpath: //*[@id = 'email_create']]
+2017-09-29 20:30:05 INFO  Loginpage:72 - entred emailaddress[[ChromeDriver: chrome on XP (f92afeb8a66478ea5f33833b16965c3a)] -> xpath: //*[@id = 'email_create']]
+2017-09-29 20:34:29 INFO  Loginpage:72 - entred emailaddress[[ChromeDriver: chrome on XP (1d8cad0f1933a36dadf8acff7dbbf1ae)] -> xpath: //*[@id = 'email_create']]
+2017-09-29 20:37:39 INFO  Loginpage:72 - entred emailaddress[[ChromeDriver: chrome on XP (14c755633990a3a9067917fb518e86fd)] -> xpath: //*[@id = 'email_create']]
+2017-09-29 20:37:45 INFO  RegistrationPage:91 - selecte the tilte[[ChromeDriver: chrome on XP (14c755633990a3a9067917fb518e86fd)] -> name: id_gender]
+2017-09-29 20:37:46 INFO  RegistrationPage:101 - firstname is [[ChromeDriver: chrome on XP (14c755633990a3a9067917fb518e86fd)] -> xpath: //*[@id = 'customer_firstname']]
+2017-09-29 20:37:46 INFO  RegistrationPage:104 - entering lastname..jain
+2017-09-29 20:37:46 INFO  RegistrationPage:108 - entering password..password
+2017-09-29 20:37:47 INFO  RegistrationPage:119 - entering yourAddressFirstName..addressfirstnameone
+2017-09-29 20:37:47 INFO  RegistrationPage:124 - entering yourAddressLastName..addresslastnameone
+2017-09-29 20:37:48 INFO  RegistrationPage:129 - entering yourAddressCompany..addresscompanyname1
+2017-09-29 20:37:48 INFO  RegistrationPage:134 - entering address..address1
+2017-09-29 20:37:48 INFO  RegistrationPage:138 - entering yourAddressCity..Bangalore
+2017-09-29 20:37:49 INFO  RegistrationPage:142 - entering yourAddressPostCode..99501
+2017-09-29 20:37:49 INFO  RegistrationPage:146 - entering mobilePhone..9168450949
+2017-09-29 20:37:49 INFO  RegistrationPage:151 - entering addressAlias..addressalias1
+2017-09-29 20:37:50 INFO  RegistrationPage:156 - clicked on registration..[[ChromeDriver: chrome on XP (14c755633990a3a9067917fb518e86fd)] -> xpath: //*[@id='submitAccount']]
+2017-09-29 20:37:52 INFO  RegistrationPage:163 - registration success msg[[ChromeDriver: chrome on XP (14c755633990a3a9067917fb518e86fd)] -> xpath: //*[contains(text(),'Welcome to your account. Here you can manage all of your personal information and orders.')]]
+2017-09-29 20:37:52 INFO  UserRegistrationpage:150 - registration successfull

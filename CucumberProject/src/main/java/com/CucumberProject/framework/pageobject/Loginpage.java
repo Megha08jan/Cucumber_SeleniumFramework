@@ -8,11 +8,11 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.CucumberProject.framework.helper.Testbase;
 
-public class Loginpage extends Testbase {
+public class Loginpage {
 
 	public static final Logger log = Logger.getLogger(Loginpage.class.getName());
 	
-	WebDriver driver;
+	
 	
 	@FindBy(xpath = "//*[@class = 'login']")
 	WebElement Signin;
@@ -26,13 +26,16 @@ public class Loginpage extends Testbase {
 	@FindBy(xpath = "//*[@class ='icon-lock left']")
 	WebElement signinbutton;
 	
+
+	@FindBy(xpath = "//*[@id = 'email_create']")
+	WebElement emailadd;	
 	
+	@FindBy(xpath ="//*[@id='SubmitCreate']")
+	public WebElement createaccount;
 	
 	public Loginpage(WebDriver driver){
-		
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
-		
+	PageFactory.initElements(Testbase.driver, this);
+	
 	}
 	
 	public void clickonsigninlink(){
@@ -64,6 +67,15 @@ public void clickonSigninbutton(){
 	log.info("clicked on signinbutton"+signinbutton.toString());
 }
 	
+public void enteremailadd(String emailadd) throws InterruptedException{
+	this.emailadd.sendKeys(emailadd);
+	log.info("entred emailaddress"+this.emailadd.toString());	
 
+}
+
+public RegistrationPage createaccount1(WebElement element){
+	element.click();
+	return new RegistrationPage(Testbase.driver);
+}
 
 }
